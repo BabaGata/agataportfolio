@@ -1,0 +1,285 @@
+body {
+    /*background-color: #1E1D54;*/
+    background-image: url('negative-space.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #1C2833;
+    font-size:18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+}
+
+.navbar {
+    margin-top: -5px;
+    margin-bottom: -5px;
+    border-width: 0;
+    position: sticky;
+    top: 0;
+    padding-block: 0.3rem;
+    z-index: 10;
+    background-image: url('negative-space.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(255,255,255, 0.1);
+	/*box-shadow: 0 -0.05rem 0.3rem rgba(8, 19, 7, 0.1) inset*/
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-crvena a:hover {
+    color: rgba(153, 111, 111, 1);
+}
+
+.nav-plava a:hover {
+    color: rgba(119, 134, 181, 1);
+}
+
+.nav-zelena a:hover {
+    color: rgba(111, 165, 104, 1);
+}
+
+.nav-zuta a:hover {
+    color: rgb(146, 127, 0);
+}
+
+.nav-ljubicasta a:hover {
+    color: rgb(137, 108, 161);
+}
+
+
+.nav-tirkizna a:hover {
+    color: rgb(106, 153, 144);
+}
+
+.nav-crvena1 a:hover {
+    color: rgba(153, 111, 111, 1);
+}
+
+.nav-plava1 a:hover {
+    color: rgba(119, 134, 181, 1);
+}
+
+.nav-zelena1 a:hover {
+    color: rgba(111, 165, 104, 1);
+}
+
+.nav-ljubicasta1 a:hover {
+    color: rgb(137, 108, 161);
+}
+
+.nav-tirkizna1 a:hover {
+    color: rgb(106, 153, 144);
+}
+
+.navbar a:active {
+    color: rgba(235,237,239,1);
+}
+
+.right-nav {
+    float: right;
+}
+
+.nav-plava1 {
+    margin-top: -11px;
+    margin-bottom: -20px;
+    margin-right: 0px;
+    border-width: 0;
+    padding-block: 0;
+}
+
+.hamburger {
+    margin-top: -11px;
+    margin-bottom: -20px;
+    margin-right: 0px;
+    border-width: 0;
+    padding-block: 0;
+}
+
+
+@media (max-width: 62em) {
+    .nav-tirkizna1 {
+    display: none;
+    }
+    .nav-zelena1 {
+        display: none;
+    }
+    .nav-crvena1 {
+        display: none;
+    }
+    .nav-plava1 {
+        display: none;        
+    }
+    .nav-ljubicasta1 {
+        display: none;        
+    }
+}
+
+@media (min-width: 62em) {
+    .hamburger {
+    display: none;
+    }
+}
+
+
+#introduction, #process, #presentation, #analysis, #data_cleaning, #data_searching, #conclusion, #footer {
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+.graph-row--zelena {
+    color: rgba(235,237,239,1);
+	padding: 2.5rem 2.5rem;
+	border-radius: 1rem;
+    background-color: rgba(32, 48, 30, 1);
+	box-shadow: 0 0.15rem 0.25rem 0 rgba(22,75,195,0.50),
+							0 -0.25rem 1.5rem rgba(8, 19, 7, 1) inset,
+							0 0.75rem 0.5rem rgba(255,255,255, 0.2) inset,
+							0 0.25rem 0.5rem 0 rgba(111, 165, 104, 1) inset;
+}
+
+.graph-row--plava {
+    color: rgba(235,237,239,1);
+	padding: 2.5rem 2.5rem;
+	border-radius: 1rem;
+    background-color: rgba(32, 39, 60, 1);
+	box-shadow: 0 0.15rem 0.25rem 0 rgba(22,75,195,0.50),
+							0 -0.25rem 1.5rem rgba(7, 7, 19, 1) inset,
+							0 0.75rem 0.5rem rgba(255,255,255, 0.2) inset,
+							0 0.25rem 0.5rem 0 rgba(119, 134, 181, 1) inset;
+}
+
+.graph-row--crvena {
+    color: rgba(235,237,239,1);
+	padding: 2.5rem 2.5rem;
+	border-radius: 1rem;
+    background-color: rgba(61, 31, 31, 1);
+	box-shadow: 0 0.15rem 0.25rem 0 rgba(22,75,195,0.50),
+							0 -0.25rem 1.5rem rgba(19, 7, 7, 1) inset,
+							0 0.75rem 0.5rem rgba(255,255,255, 0.2) inset,
+							0 0.25rem 0.5rem 0 rgba(153, 111, 111, 1) inset;
+}
+
+.graph-row--narancasta {
+    color: rgba(235,237,239,1);
+	padding: 2.5rem 2.5rem;
+	border-radius: 1rem;
+    background-color: rgba(170, 91, 11, 1);
+	box-shadow: 0 0.15rem 0.25rem 0 rgba(22,75,195,0.50),
+							0 -0.25rem 1.5rem rgba(75, 38, 0, 1) inset,
+							0 0.75rem 0.5rem rgba(255,255,255, 0.2) inset,
+							0 0.25rem 0.5rem 0 rgba(255, 217, 179, 1) inset;
+}
+
+.graph-row--ljubicasta {
+    color: rgba(235,237,239,1);
+	padding: 2.5rem 2.5rem;
+	border-radius: 1rem;
+    background-color: rgba(49, 30, 65, 1);
+	box-shadow: 0 0.15rem 0.25rem 0 rgba(22,75,195,0.50),
+							0 -0.25rem 1.5rem rgba(15, 7, 19, 1) inset,
+							0 0.75rem 0.5rem rgba(255,255,255, 0.2) inset,
+							0 0.25rem 0.5rem 0 rgba(191, 165, 212, 1) inset;
+}
+
+.graph-row--tirkizna {
+    color: rgba(235,237,239,1);
+	padding: 2.5rem 2.5rem;
+	border-radius: 1rem;
+    background-color: rgba(21, 66, 57, 1);
+	box-shadow: 0 0.15rem 0.25rem 0 rgba(22,75,195,0.50),
+							0 -0.25rem 1.5rem rgba(9, 30, 26, 1) inset,
+							0 0.75rem 0.5rem rgba(255,255,255, 0.2) inset,
+							0 0.25rem 0.5rem 0 rgba(152, 220, 206, 1) inset;
+}
+
+.graph-row--zuta {
+    color: rgba(235,237,239,1);
+    font-size: 17px;
+	padding: 2.5rem 2.5rem;
+	border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: rgba(122, 107, 15, 1);
+	box-shadow: 0 0.15rem 0.25rem 0 rgba(22,75,195,0.50),
+							0 -0.25rem 1.5rem rgba(55, 49, 9, 1) inset,
+							0 0.75rem 0.5rem rgba(255,255,255, 0.2) inset,
+							0 0.25rem 0.5rem 0 rgba(254, 246, 195, 1) inset;
+}
+
+.hero {
+    position: relative;
+    background:linear-gradient(0deg, rgba(122, 107, 15, 0.95), rgba(122, 107, 15, 0.9)), url('vintage_map.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(122, 107, 15, 1);
+    height: 80vh;
+    text-align: center;
+    color: rgba(235,237,239,1);
+	padding: 2.5rem 2.5rem;
+	border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    font-size: 26px;    
+	box-shadow: 0 0.15rem 0.25rem 0 rgba(22,75,195,0.50),
+							0 -0.25rem 1.5rem rgba(55, 49, 9, 1) inset,
+							0 0.75rem 0.5rem rgba(255,255,255, 0.2) inset,
+							0 0.25rem 0.5rem 0 rgba(254, 246, 195, 1) inset;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(235,237,239,1);
+}
+
+.hero h1 {
+    color: rgba(235,237,239,1);
+}
+
+.graph-row--zelena h4 {
+    color: rgba(235,237,239,1);
+}
+
+.graph-row--zuta h3 {
+    color: rgba(235,237,239,1);
+}
+
+.graph-row--zuta a {
+    color: rgba(235,237,239,1);
+}
+
+@media (max-width: 1400px) {
+    .graph-row--zelena {
+        padding: 2.5rem 0;
+    }
+    .graph-row--plava {
+        padding: 2.5rem 0;
+    }
+    .graph-row--crvena {
+        padding: 2.5rem 0;
+    }
+    .graph-row--zelena {
+        padding: 2.5rem 0;
+    }
+    .graph-row--narancasta {
+        padding: 2.5rem 0;
+    }
+    .graph-row--ljubicasta {
+        padding: 2.5rem 0;
+    }
+    .graph-row--tirkizna {
+        padding: 2.5rem 0;
+    }
+}
